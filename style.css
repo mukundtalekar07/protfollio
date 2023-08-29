@@ -1,0 +1,265 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+}
+/* font-family: 'Poppins', sans-serif; */
+body{
+    /* background-color: #080808; */
+    color: #fff;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+    background-color: #080808;
+    
+}
+
+.logo{
+    margin: 5px 0px 0px 2px;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.logo span{
+    color: chocolate;
+}
+nav{
+    width: 100%;
+	height: 8em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 70px;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu a{
+    font-size: 1.3rem;
+    font-weight: 400px;
+    /* color: black; */
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+
+}
+a:hover{
+    color: yellow;
+}
+.box{
+    width: 100%;
+    background-color: #fff;
+    
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+    
+}
+.left img{
+    margin: 30px 0px 0px 20px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 0px red;
+}
+.right h1{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+}
+h1 span{
+    color: #e67e22;  
+    
+}
+ h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0px 0px 50px 300px;
+    box-shadow: 20px 2px 5px yellow;
+}
+h5:hover{
+    color: #e67e22;
+}
+#bio{
+background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+url('images/banner1.jpg');
+background-size: cover;
+width: 100%;
+
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.left-1{
+    flex-basis: 50%;
+}
+.right-1{
+    flex-basis: 50%;
+}
+.right-1 img{
+    height: 500px;
+    /* position: fixed; */
+    border-radius: 50%;
+    margin: 20px 2px 20px 150px;
+}
+.menu a:nth-child(5){
+    background: #6ab04c;
+    border-radius: 8px;
+    margin: 0 0.5rem;
+}
+.menu a:hover{
+    background: #6ab04c;
+    border-radius: 8px;
+}
+
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-family: 'Poppins', sans-serif;
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio{
+    flex-basis: 60%;
+}
+.leftbio img{
+    width: 100%;
+    height: 700px; 
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px black;
+}
+.rightbio{
+    text-align:right;
+    padding: 0px 40px ; 
+
+}
+.rightbio p{
+    margin: 15px 0px;
+    line-height: 2.5rem;
+    
+}
+.rightbio h1 {
+    font-size: 3rem;
+}
+.info{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   text-align: left; 
+}
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: #e67e22;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+ #follow p:hover{
+    background: #080808;
+    /* color: #6ab04c; */
+    border-radius: 50%;
+}
+.link-h{
+    text-align: end;
+    margin: 3rem;
+}
+
+#hire {
+    
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    background-color: #6ab04c;
+}
+#cv{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed grey;
+}
+#hire:hover{
+    background-color: #e67e22;
+    color: #080808;
+}
+
+#services{
+    color: #080808;
+    padding: 50px 70px;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.05);
+     text-align: center;
+
+}
+.intro h1{
+    font-size: 3rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top:3rem ;
+
+}
+.cardbody{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.cardbody i{
+    font-size: 2.5rem;
+    color: #6ab04c;
+}
+.cardimg img{
+    width: 100%;
+}
+footer{
+   background-color: #6ab04c; 
+   color: white;
+   font-size: 2rem;
+   padding: 0.5 rem;
+   font-family: 'kalam' , cursive;
+   text-align: center; 
+}
